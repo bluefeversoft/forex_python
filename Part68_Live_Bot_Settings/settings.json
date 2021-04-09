@@ -1,0 +1,6 @@
+[
+    { "pair" :  "EUR_USD", "units": 1000, "short_ma": 4, "long_ma": 16 },
+    { "pair" :  "GBP_JPY", "units": 1000, "short_ma": 4, "long_ma": 16 },
+    { "pair" :  "AUD_USD", "units": 1000, "short_ma": 8, "long_ma": 32 },
+    { "pair" :  "GBP_USD", "units": 1000, "short_ma": 8, "long_ma": 32 }
+]
