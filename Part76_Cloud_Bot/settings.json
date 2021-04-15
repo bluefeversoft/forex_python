@@ -1,0 +1,8 @@
+{
+    "EUR_USD" :  { "pair" :  "EUR_USD", "units": 1000, "short_ma": 2, "long_ma": 8 },
+    "GBP_JPY" :  { "pair" :  "GBP_JPY", "units": 1000, "short_ma": 2, "long_ma": 8 },
+    "AUD_USD" :  { "pair" :  "AUD_USD", "units": 1000, "short_ma": 2, "long_ma": 8 },
+    "GBP_USD" :  { "pair" :  "GBP_USD", "units": 1000, "short_ma": 2, "long_ma": 8 },
+    "EUR_CHF" :  { "pair" :  "EUR_CHF", "units": 1000, "short_ma": 2, "long_ma": 8 },
+    "EUR_GBP" :  { "pair" :  "EUR_GBP", "units": 1000, "short_ma": 2, "long_ma": 8 }
+}
