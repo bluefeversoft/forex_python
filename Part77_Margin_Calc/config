@@ -1,0 +1,4 @@
+Host BotDO
+  HostName xxxx
+  User root
+  IdentityFile C:/Users/xxxx/.ssh/bot_key
