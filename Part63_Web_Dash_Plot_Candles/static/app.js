@@ -41,6 +41,7 @@ var drawChart = function(data) {
 var app = new Vue({
     el: '#app',
     data: {
+      pairName: '',
       message: 'Hello Beer!',
       kpiData: {},
       timer: null,
@@ -85,6 +86,7 @@ var app = new Vue({
         rowSelected: function(pair) {
           clearInterval(this.timer);
           this.loadPrices(pair);
+          this.pairName = pair;
         },
         goHome: function() {
           clearInterval(this.timer);

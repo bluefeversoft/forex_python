@@ -17,6 +17,7 @@
     <div id="app">
         <div class="header">
             <h3>Forex KPI {{ kpiData.updated }}</h3>
+            <h2 v-show="showPrices==true">{{pairName}}</h2>
             <button class="button" @click="goHome">Home</button>
         </div>        
         <div class="tableContainer" v-show="showPrices==false">
