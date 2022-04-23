@@ -17,8 +17,8 @@ def get_kpi_data():
 
 
 @app.route("/price_data/<pair>")
-def get_price_data(p):
-    data = OandaAPI.pricing_api(p)
+def get_price_data(pair):
+    data = OandaAPI.pricing_api(pair)
     return jsonify(data)
 
 
